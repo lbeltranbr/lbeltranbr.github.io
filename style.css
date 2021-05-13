@@ -7,3 +7,7 @@
 .header-text{
     margin-left:36px;
 }
+
+body, html {
+	height: 100%;
+  }
