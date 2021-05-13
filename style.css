@@ -3,10 +3,37 @@
 body, html{
 	height: 100%;
 	font-family: 'Slabo 27px', serif;
-	background:#000;
+	background:rgb(255, 255, 255);
 	margin: 0;
 }
+.top_bar{
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.8);
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	z-index:3;
 
+}
+.top_bar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	
+}
+.top_bar a:hover {
+background: #ddd;
+color: black;
+}
+.main{
+	height: 100%;
+	font-family: 'Slabo 27px', serif;
+	background:rgb(255, 255, 255);
+	margin: 0;
+}
 .temp{
 	position:relative;
 	z-index:2;
@@ -19,4 +46,4 @@ body, html{
 .temp *{
 	max-width:900px;
 	margin:5% auto;
-  }
+}
