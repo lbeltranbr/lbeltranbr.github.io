@@ -5,15 +5,16 @@ body, html{
 	font-family: 'Slabo 27px', serif;
 	background:rgb(255, 255, 255);
 	margin: 0;
+	scroll-behavior: smooth;
+
 }
 .top_bar{
 	overflow: hidden;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.9);
 	position: fixed; /* Set the navbar to fixed position */
 	top: 0; /* Position the navbar at the top of the page */
 	width: 100%; /* Full width */
 	z-index:3;
-
 }
 .top_bar a {
 	float: left;
