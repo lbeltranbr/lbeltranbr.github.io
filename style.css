@@ -1,0 +1,9 @@
+.header {
+	background-color: #ffafaf;
+	margin: -16px;
+	padding: 1px;
+	/* margin-left: 1px; */
+}
+.header-text{
+    margin-left:36px;
+}
