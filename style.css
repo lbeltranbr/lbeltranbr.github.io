@@ -70,3 +70,9 @@ body, html{
 	height: 25%;
 	border-radius: 50%;
 }
+@media only screen and (max-device-width: 1366px) {
+	.logo{
+	
+		margin-top: 25%;
+	}
+  }
