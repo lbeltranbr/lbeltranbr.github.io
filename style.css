@@ -2,7 +2,7 @@
 
 body, html{
 	height: 100%;
-	font-family: 'Slabo 27px', serif;
+	font-family: segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
 	background:rgb(255, 255, 255);
 	margin: 0;
 	scroll-behavior: smooth;
@@ -26,8 +26,8 @@ body, html{
 	
 }
 .top_bar a:hover {
-background: #ddd;
-color: black;
+	background: #d89dfa;
+	color: black;
 }
 .main{
 	height: 100%;
@@ -47,4 +47,25 @@ color: black;
 .temp *{
 	max-width:900px;
 	margin:5% auto;
+}
+.logo{
+	position:relative;
+	padding:5%;
+	background-color: #d89dfa;
+	border-radius: 25px;
+	/*max-width:700px;*/
+	margin:5%;
+	
+}
+.logo h1{
+	font-family: segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+	font-size:27px;
+ 	font-weight: normal;
+	color:#fff;
+
+}
+.logo img{
+	width:25%;
+	height: 25%;
+	border-radius: 50%;
 }
