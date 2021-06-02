@@ -31,48 +31,71 @@ body, html{
 }
 .main{
 	height: 100%;
-	font-family: 'Slabo 27px', serif;
 	background:rgb(255, 255, 255);
 	margin: 0;
 }
 .temp{
-	position:relative;
+	position:sticky;
 	z-index:2;
-	background:rgba(0,0,0,0.8);
-	font-size:27px;
+	background:#11011b;
+	font-size:3vw;
 	color:#fff;
 	padding:5%;
-  }
+	
+}
 
 .temp *{
 	max-width:900px;
-	margin:5% auto;
 }
 .logo{
-	position:absolute;
-	padding:5%;
-	background-color: #d89dfa;
-	border-radius: 25px;
-	/*max-width:700px;*/
-	margin:5%;
-	margin-top: 10%;
+	
+	position: absolute;
+    padding: 5%;
+    background-color: #765da08f;
+    border-radius: 25px;
+	width:75%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
 	
 }
 .logo h1{
 	font-family: segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
-	font-size:27px;
+	font-size:4vw;
  	font-weight: normal;
 	color:#fff;
+	position: relative;
+	top: 5vw;
+    left: 60%;
+    transform: translate(-50%, -50%);
+
+}
+.logo h2{
+	font-family: segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+	font-size:3vw;
+ 	font-weight: normal;
+	color:rgb(0, 0, 0);
+	position: relative;
+	top: 5vw;
+    left: 60%;
+    transform: translate(-50%, -50%);
+
 
 }
 .logo img{
 	width:25%;
 	height: 25%;
 	border-radius: 50%;
+	float: left;
 }
-@media only screen and (max-device-width: 1366px) {
-	.logo{
-	
-		margin-top: 25%;
-	}
-  }
+.aboutme{
+	font-family: segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+	font-size:2vw;
+ 	font-weight: normal;
+	color:rgb(255, 255, 255);
+	position: relative;
+	padding: 5%;
+	text-align: justify;
+  text-justify: inter-word;
+}
+

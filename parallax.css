@@ -1,6 +1,6 @@
 .parallax {
     /* The image used */
-    background-image: url('Images/background.png');
+    
     min-height: 100%;
     position: relative;
     opacity: 1;
@@ -13,7 +13,17 @@
     background-size: cover;
    
 }
+#second,#home{
+  background-image: url('Images/background.png');
+}
 
+#first{
+  background-image: url('Images/background.png');
+}
+
+#third{
+  background-image: url('Images/background.png');
+}
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
   .parallax {
