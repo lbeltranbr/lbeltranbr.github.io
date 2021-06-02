@@ -13,16 +13,19 @@
     background-size: cover;
    
 }
-#second,#home{
+#home{
   background-image: url('Images/background.png');
 }
 
 #first{
-  background-image: url('Images/background.png');
+  background-image: url('Images/background2.png');
+}
+#second{
+  background-image: url('Images/background3.png');
 }
 
 #third{
-  background-image: url('Images/background.png');
+  background-image: url('Images/background3.png');
 }
 /* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1366px) {
