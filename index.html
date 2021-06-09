@@ -2,8 +2,9 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="parallax.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/parallax.css">
+    <link rel="stylesheet" href="css/carousel.css">
 </head>
 <body>
     
@@ -41,9 +42,25 @@
 
         <div class= "temp" id="academic">
             <p>Academic Projects</p>
+
+            
         </div>
 
         <div class="parallax" id="second"> 
+
+            <a class="arrow prev" onclick="plusSlides(-1)"></a>
+            <a class="arrow next" onclick="plusSlides(1)"></a>
+
+            <ul class="carousel">
+                <img src="Images/placeholder.jpg" alt="" /></a>
+                <h1>My Work</h1>
+                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+            </ul>
+            <ul class="carousel">
+                <img src="Images/placeholder.jpg" alt="" /></a>
+                <h1>My Work2</h1>
+                <p>Lorem ipsum2 dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+            </ul>
         </div>
 
         <div class= "temp" id="professional">
@@ -57,5 +74,7 @@
             <p>Contact</p>
         </div>
    
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script src="scripts/projects_effects.js"></script>
 </body>
 </html>
