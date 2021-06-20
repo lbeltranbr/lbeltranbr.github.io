@@ -19,7 +19,9 @@ function showSlides(n) {
 	for (i = 0; i < slides.length; i++) {
 		slides[i].style.display = "none";  
 	}
-	slides[slideIndex-1].style.display = "block";  
-	s//etTimeout(showSlides, 4000); // Change image every 2 seconds
+	slides[slideIndex-1].style.display = "block"; 
+	//transition(); 
+	//etTimeout(showSlides, 4000); // Change image every 2 seconds
 
-  }
+}
+

@@ -98,4 +98,11 @@ body, html{
 	text-align: justify;
   text-justify: inter-word;
 }
+.links{
+	font-family: segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+	font-size:2vw;
+ 	font-weight: normal;
+	color:rgb(255, 255, 255);
+	background-color: #11011b;
+}
 
