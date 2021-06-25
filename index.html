@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/parallax.css">
     <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/overlay.css">
 </head>
 <body>
     
@@ -13,68 +14,86 @@
         <a href="#info">About me</a>
         <a href="#academic">Portfolio</a>
         <a href="#contact">Contact</a>
-    </div>  
-        <div class="parallax" id="home">  
-            <div class ="logo">
-                <img src="Images/logo.png" alt="logo"> 
-                <h1>Laura Beltrán Bravo</h1>
-                <h2>Audiovisual Systems Engineer</h2>
-                <h2>MSc in Computer Games Technology</h2>     
-            </div>    
-                   
-        </div>
+    </div> 
+
+    <div class="parallax" id="home">  
+        <div class ="logo">
+            <img src="Images/logo.png" alt="logo"> 
+            <h1>Laura Beltrán Bravo</h1>
+            <h2>Audiovisual Systems Engineer</h2>
+            <h2>MSc in Computer Games Technology</h2>     
+        </div>    
+                
+    </div>
+
+    <div class= "temp" id="info">
+        <p>About me</p>
+    </div>
+
+    <div class="parallax" id="first"> 
+        <div class ="aboutme"> 
+            <p>I am an Audiovisual Systems Engineer originally from Spain but now living in Dundee, Scotland.
+                    Currently, I am finishing a Master's degree in Computer Games Technology. I like to play video games,
+                    drawing, and to read graphical novels in my spare time. I am really interested in graphical and level programming for video games, I am also looking
+                    for new challenges in order to acquire more experience.
+
+            </p>    
+        </div>    
+    </div>
+
+    <div class= "temp" id="academic">
+        <p>Portfolio</p>    
+    </div>
+
+    <div class="parallax" id="second"> 
+
+        <a class="arrow prev" onclick="plusSlides(-1)"></a>
+        <a class="arrow next" onclick="plusSlides(1)"></a>
+
+        <ul class="carousel">
+            <img src="Images/icon.PNG" alt="" onclick="on()">
+            <h1>Evocation</h1>
+            <p>Evocation is a 2D side-scroller game prototype developed with Unity and created by a team composed by 5 students from Abertay University.</p> 
+            
+        </ul>
+        <ul class="carousel">
+            <img src="Images/AI.PNG" alt="">
+            <h1>AI project</h1>
+            <p>Lorem ipsum2 dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </ul>
+    </div>
     
-        <div class= "temp" id="info">
-            <p>About me</p>
-        </div>
 
-        <div class="parallax" id="first"> 
-            <div class ="aboutme"> 
-                <p>I am an Audiovisual Systems Engineer originally from Spain but now living in Dundee, Scotland.
-                     Currently, I am finishing a Master's degree in Computer Games Technology. I like to play video games,
-                     drawing, and to read graphical novels in my spare time. I am really interested in graphical and level programming for video games, I am also looking
-                     for new challenges in order to acquire more experience.
+    <div class= "temp" id="contact">
+        <p>Contact</p>
+        
+    </div>
+    <div class="links">
+        <p>Laura Beltrán Bravo</p>
+        <p>Contact</p>
+        <p>Contact</p>
+        <p>Contact</p>
+    </div>
 
-                </p>    
-            </div>    
-        </div>
+    <div id="overlay" >
+        
+        <div class ="complete_info" >        
+           
+            <iframe id="evocation" width="550" height="315" src="https://www.youtube.com/embed/hyUcbIzd3qk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h1>Evocation</h1>
+            <button type="button" class= "close" onclick="off()">X</button>
 
-        <div class= "temp" id="academic">
-            <p>Portfolio</p>
+            <p>The game follows a lonely girl as she traverses the spirit realm after recently passing away. Follow her as she meets unusual beings and tries to achieve her goal of recovering her memories to resolve how she passed. Will she choose peace or want revenge for her death?</p>
+            <p>I was the Lead Programmer in this project, I was in charge of the level programming and the incorporation and adjustment of the assets provided by the artists.</p>
+            <p> </p>
+            <a href="https://github.com/lbeltranbr/Game" target="_blank">GitHub repository</a>
 
-            
-        </div>
+        </div>    
+                
+    </div>
 
-        <div class="parallax" id="second"> 
-
-            <a class="arrow prev" onclick="plusSlides(-1)"></a>
-            <a class="arrow next" onclick="plusSlides(1)"></a>
-
-            <ul class="carousel">
-                <img src="Images/icon.PNG" alt="">
-                <h1>Evocation</h1>
-                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-            </ul>
-            <ul class="carousel">
-                <img src="Images/AI.PNG" alt="">
-                <h1>AI project</h1>
-                <p>Lorem ipsum2 dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-            </ul>
-        </div>
-
-        <div class= "temp" id="contact">
-            <p>Contact</p>
-            
-        </div>
-        <div class="links">
-            <p>Laura Beltrán Bravo</p>
-            <p>Contact</p>
-            <p>Contact</p>
-            <p>Contact</p>
-        </div>
-
-   
-        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-        <script src="scripts/projects_effects.js"></script>
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script src="scripts/projects_effects.js"></script>
+    <script src="scripts/overlay.js"></script>
 </body>
 </html>
