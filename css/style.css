@@ -342,7 +342,7 @@ button {
 
 /* Style the images inside the grid */
 .column img {
-  opacity: 0.8;
+  opacity: 0.6;
   cursor: pointer;
 }
 
@@ -365,7 +365,12 @@ button {
   position: relative;
   display: none;
 }
-
+#expandedImg{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 /* Expanding image text */
 #imgtext {
   position: absolute;
