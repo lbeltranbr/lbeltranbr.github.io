@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+  <!-- Navbar Start -->
+  <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+      <a href="index.html" class="navbar-brand ml-lg-3">
+          <h1 class="m-0 display-5"><span class="text-primary">Port</span>Folio</h1>
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+          <div class="navbar-nav m-auto py-0">
+              <a href="index.html" class="nav-item nav-link active">Home</a>
+          </div>
+      </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- AIntro -->
+  <div class="container-fluid py-5" id="about">
+      <div class="container">
+          <div class="position-relative d-flex align-items-center justify-content-center">
+              <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Project</h1>
+              <h1 class="position-absolute text-uppercase text-primary">Artificial Intelligence</h1>
+          </div>
+          <div class="row align-items-center">
+              <div class="col-lg-5 pb-4 pb-lg-0">
+                <iframe class=" rounded" src="https://www.youtube.com/embed/EDGeoUZq6EM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="col-lg-7">
+                  <h3 class="mb-4">Artificial Intelligence</h3>
+                  <p>The project consists of the generation of a maze using a Ruled Based System and aims to solve it using a Reinforcement Learning algorithm.</p>
+                  <p>For the Reinforcement Learning, Q-learning was used. It is a model-free Reinforcement Learning algorithm based on 4 elements:
+                  <br>• Agent: the player, which is represented as a red cube.
+                  <br>• States: all the situations that the agent encounters, in this project we find four states, Start, Correct Path, Hit and End.
+                  <br>• Actions: the transitions from one state to another, in this case the actions are Left, Right, Forward and Backward.
+                  <br>• Rewards: the rewards are given to the agent after every transition. The scoring system is based in a negative reward when the agent hits a wall and a positive reward when it reaches the end of the maze.</p>
+                  <a href="https://github.com/lbeltranbr/Maze-AI"> GitHub</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Intro End -->
+
+ 
+  <!-- Portfolio Start -->
+  <div class="container-fluid pt-5 pb-3" id="portfolio">
+      <div class="container">
+          <div class="position-relative d-flex align-items-center justify-content-center">
+              <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+              <h1 class="position-absolute text-uppercase text-primary">Gallery</h1>
+          </div>
+          <div class="row">
+              <div class="col-12 text-center mb-2">
+                  <ul class="list-inline mb-3" id="portfolio-flters">
+                      <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                      <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Screenshots</li>
+                      <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Code</li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row portfolio-container">
+              <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                  <div class="position-relative overflow-hidden mb-2">
+                      <img class="img-fluid rounded w-100" src="img/maze1.png" alt="">
+                      <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                          <a href="img/maze1.png" data-lightbox="portfolio">
+                              <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                  <div class="position-relative overflow-hidden mb-2">
+                      <img class="img-fluid rounded w-100" src="img/maze2.png" alt="">
+                      <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                          <a href="img/maze2.png" data-lightbox="portfolio" >
+                              <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                  <div class="position-relative overflow-hidden mb-2">
+                      <img class="img-fluid rounded w-100" src="img/maze3.png" alt="">
+                      <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                          <a href="img/maze3.png" data-lightbox="portfolio">
+                              <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                  <div class="position-relative overflow-hidden mb-2">
+                      <img class="img-fluid rounded w-100" src="img/maze4.png" alt="">
+                      <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                          <a href="img/maze4.png" data-lightbox="portfolio">
+                              <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                  <div class="position-relative overflow-hidden mb-2">
+                      <img class="img-fluid rounded w-100" src="img/mazecode1.png" alt="">
+                      <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                          <a href="iimg/mazecode1.png" data-lightbox="portfolio">
+                              <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                  <div class="position-relative overflow-hidden mb-2">
+                      <img class="img-fluid rounded w-100" src="img/mazecode2.png" alt="">
+                      <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                          <a href="img/mazecode2.png" data-lightbox="portfolio">
+                              <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/mazecode3.png" alt="">
+                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="img/mazecode3.png" data-lightbox="portfolio">
+                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="position-relative overflow-hidden mb-2">
+                    <img class="img-fluid rounded w-100" src="img/mazecode4.png" alt="">
+                    <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                        <a href="img/mazecode4.png" data-lightbox="portfolio">
+                            <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                        </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+      </div>
+  </div>
+  <!-- Portfolio End -->
+
+  <!-- Contact Start -->
+  <div class="container-fluid py-5" id="contact">
+      <div class="container">
+          <div class="container text-center py-5">
+              <div class="d-flex justify-content-center mb-2">
+                  <a class="btn btn-light btn-social mr-2" href="http://linkedin.com/in/laura-beltr%C3%A1nbravo-263264144"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="btn btn-light btn-social" href="mailto:laurairmabb@gmail.com"><i class="fa fa-envelope"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Contact End -->
+
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+      <div class="container text-center py-5">
+          <div class="d-flex justify-content-center mb-3">
+              <a class="text-white" href="#">Privacy</a>
+              <span class="px-3">|</span>
+              <a class="text-white" href="#">Terms</a>
+              <span class="px-3">|</span>
+              <a class="text-white" href="#">FAQs</a>
+              <span class="px-3">|</span>
+              <a class="text-white" href="#">Help</a>
+          </div>
+          <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+          </p>
+      </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Scroll to Bottom -->
+  <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+  <!-- Contact Javascript File -->
+  <script src="mail/jqBootstrapValidation.min.js"></script>
+  <script src="mail/contact.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
